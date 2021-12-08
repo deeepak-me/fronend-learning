@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.price-card {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 375px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.first-image {
+    width: 375px;
+    border-radius: 20px 20px 0 0;
+    display: block;
+}
+
+.details {
+    padding: 48px 48px 30px 48px;
+}
+
+.tittle {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    font-size: 14px;
+    padding: 18px 24px 18px 24px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-image {
+    margin-left: 4px;
+}
+
+.plan-detail {
+    display: flex;
+    margin-left: 10px;
+}
+
+.plan-rate {
+    display: flex;
+    flex-direction: column;
+}
+
+.rate1 {
+    font-weight: 900;
+    font-style: normal;
+    color: hsl(223, 47%, 23%);
+}
+
+.rate2 {
+    font-weight: 500;
+    margin-top: 6px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-change {
+    padding: 10px;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.plan-change:hover {
+    color: #766CF1;
+}
+
+.payement {
+    display: block;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 15px 15px 1px rgba(203, 203, 209, 0.479);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.payement:hover {
+    background-color: #766CF1;
+}
+
+.cancel {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cancel a {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.cancel a:hover {
+    color: hsl(245, 75%, 52%);
+}
