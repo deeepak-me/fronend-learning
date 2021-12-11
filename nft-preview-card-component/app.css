@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.preview-card {
+    font-family: 'Outfit', sans-serif;
+    width: 375px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.main-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+}
+
+.first-image {
+    width: 100%;
+    height: auto;
+}
+
+.eye-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.eye-overlay:hover {
+    opacity: 1;
+}
+
+.eye-icon {
+    width: 30px;
+    height: auto;
+}
+
+.tittle {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.tittle:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethereum p {
+    margin-left: 10px;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.time p {
+    margin-left: 10px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.creator-image {
+    width: 40px;
+}
+
+.creator p {
+    margin-left: 10px;
+}
+
+.creator a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.creator a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
+}
